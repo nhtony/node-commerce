@@ -29,7 +29,7 @@ class AccessService {
         name,
         email,
         password: passwordHash,
-        roles: [RoleShop.SHOPsxw],
+        roles: [RoleShop.SHOP],
       });
 
       if (newShop) {
